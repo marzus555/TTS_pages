@@ -1,99 +1,110 @@
+
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Audio samples related to Tacotron</title>
-    <link rel="stylesheet" type="text/css" href="pages/stylesheet.css"/>
-  </head>
-  <body>
-    <h1>
-      Audio samples
-    </h1>
-    <article>
-      <h2>
-        RSS dataset
-      </h2>
-      <table>	
-        <thead>	
-          <tr>	
-            <th>Ground truth</th><th>Tacotron2 + Griffin-Lim</th><th>Tacotron2 + WaveRNN</th>	
-          </tr>	
-        </thead>	
-        <tbody>	
-          <tr><td colspan="3"><span></span></td></tr>
-          <tr><td colspan="3"><i>În acest cămin au prioritate studenţii în ani terminali.</i></td></tr>
-          <tr>	
-            <td><audio controls=""><source src="pages/samples/wave_rss_ground_truth_in_acest_camin.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/gl_rss_in_acest_camin.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/rss_in_acest_camin.wav" type="audio/wav"></audio></td>	
-          </tr>	
-          <tr><td colspan="3"><span></span></td></tr>
-          <tr><td colspan="3"><span>Text here 2</span></td></tr>	
-          <tr>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>		
-          </tr>
-        </tbody>	
-      </table>	
-    </article>
-	  
-    <article>
-      <h2>
-        SWARA dataset
-      </h2>
-      <table>	
-        <thead>	
-          <tr>	
-            <th>Ground truth</th><th>Tacotron2 + Griffin-Lim</th><th>Tacotron2 + WaveRNN</th>	
-          </tr>	
-        </thead>	
-        <tbody>	
-          <tr><td colspan="3"><span></span></td></tr>
-          <tr><td colspan="3"><span>Text here</span></td></tr>
-          <tr>	
-            <td><audio controls=""><source src="pages/samples/wave_rss_ground_truth_in_acest_camin.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/gl_rss_in_acest_camin.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/rss_in_acest_camin.wav" type="audio/wav"></audio></td>	
-          </tr>	
-          <tr><td colspan="3"><span></span></td></tr>
-          <tr><td colspan="3"><span>Text here 2</span></td></tr>	
-          <tr>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>		
-          </tr>
-        </tbody>	
-      </table>	
-    </article>
-	  
-    <h1></h1>
-    <article>
-      <h2>
-        Unseen sentences
-      </h2>
-      <table>	
-        <thead>	
-          <tr>	
-            <th>Tacotron2 + Griffin-Lim</th><th>RomanianTTS + WORLD</th><th>Tacotron2 + WaveRNN</th>	
-          </tr>	
-        </thead>	
-        <tbody>	
-          <tr><td colspan="3"><span></span></td></tr>
-          <tr><td colspan="3"><i>În acest cămin au prioritate studenţii în ani terminali.</i></td></tr>
-          <tr>	
-            <td><audio controls=""><source src="pages/samples/wave_rss_ground_truth_in_acest_camin.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/gl_rss_in_acest_camin.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/rss_in_acest_camin.wav" type="audio/wav"></audio></td>	
-          </tr>	
-          <tr><td colspan="3"><span></span></td></tr>
-          <tr><td colspan="3"><span>Text here 2</span></td></tr>	
-          <tr>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>	
-            <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>		
-          </tr>
-        </tbody>	
-      </table>	
-    </article>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Romanian audio samples</title>
+  <link rel="stylesheet" type="text/css" href="pages/stylesheet.css"/>
+</head>
+<body>
+<h1>
+  Audio samples
+</h1>
+<article>
+  <h2>
+    RSS dataset
+  </h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Ground truth</th><th>Tacotron2 + Griffin-Lim</th><th>Tacotron2 + WaveRNN</th><th>Ground truth spectrograms + WaveRNN</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr><td colspan="4"><span></span></td></tr>
+    <tr><td colspan="4"><i>În acest cămin au prioritate studenţii în ani terminali.</i></td></tr>
+    <tr>
+      <td><audio controls=""><source src="pages/samples/adr_rnd1_004.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/gl_rss_in_acest_camin.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/rss_in_acest_camin.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/wave_rss_ground_truth_in_acest_camin.wav" type="audio/wav"></audio></td>
+    </tr>
+    <tr><td colspan="4"><span></span></td></tr>
+    <tr><td colspan="4"><i>Afganistanul va fi reprezentat la adunarea generală de ministrul de externe, a declarat un responsabil al misiunii.</i></td></tr>
+    <tr>
+      <td><audio controls=""><source src="pages/samples/adr_diph1_004.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/gl_rss_afganistan.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/wave_rss_afganistan.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/wave_rss_ground_truth_afganistan.wav" type="audio/wav"></audio></td>
+    </tr>
+    <tr><td colspan="4"><span></span></td></tr>
+    <tr><td colspan="4"><i>De pildă, aş face un brand din brânza şi gemurile locale</i></td></tr>
+    <tr>
+      <td><audio controls=""><source src="pages/samples/adr_rnd1_500.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/gl_rss_de_pilda.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/rss_de_pilda.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/wave_rss_ground_truth_de_pilda.wav" type="audio/wav"></audio></td>
+    </tr>
+    </tbody>
+  </table>
+</article>
+
+<article>
+  <h2>
+    SWARA dataset
+  </h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Ground truth</th><th>Tacotron2 + Griffin-Lim</th><th>Tacotron2 + WaveRNN</th><th>Ground truth spectrograms + WaveRNN</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr><td colspan="4"><span></span></td></tr>
+    <tr><td colspan="4"><span>Text here</span></td></tr>
+    <tr>
+      <td><audio controls=""><source src="pages/samples/wave_rss_ground_truth_in_acest_camin.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/gl_rss_in_acest_camin.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/rss_in_acest_camin.wav" type="audio/wav"></audio></td>
+    </tr>
+    <tr><td colspan="4"><span></span></td></tr>
+    <tr><td colspan="4"><span>Text here 2</span></td></tr>
+    <tr>
+      <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>
+    </tr>
+    </tbody>
+  </table>
+</article>
+
+<h1></h1>
+<article>
+  <h2>
+    Unseen sentences
+  </h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Tacotron2 + Griffin-Lim</th><th>RomanianTTS + WORLD</th><th>Tacotron2 + WaveRNN</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr><td colspan="3"><span></span></td></tr>
+    <tr><td colspan="3"><i>În acest cămin au prioritate studenţii în ani terminali.</i></td></tr>
+    <tr>
+      <td><audio controls=""><source src="pages/samples/wave_rss_ground_truth_in_acest_camin.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/gl_rss_in_acest_camin.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/rss_in_acest_camin.wav" type="audio/wav"></audio></td>
+    </tr>
+    <tr><td colspan="3"><span></span></td></tr>
+    <tr><td colspan="3"><span>Text here 2</span></td></tr>
+    <tr>
+      <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="pages/samples/sample_1.wav" type="audio/wav"></audio></td>
+    </tr>
+    </tbody>
+  </table>
+</article>
+</body>
 </html>
