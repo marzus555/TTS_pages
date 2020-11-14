@@ -1,3 +1,4 @@
+## About
 This project contains the source code and results of the paper "EXPLORING END-TO-END NEURAL TEXT-TO-SPEECH SYNTHESIS FOR ROMANIAN".
 
 The project contains both Tacotron and WaveRNN implementations that are part of [Mozilla Common Voice](https://voice.mozilla.org/en) project.
